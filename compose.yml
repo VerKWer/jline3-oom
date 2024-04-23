@@ -1,0 +1,8 @@
+services:
+  jline3-oom:
+    image: jline3-oom:latest
+    stdin_open: true
+    tty: true
+    ports:
+      - 127.0.0.1:5005:5005
+    build: .
